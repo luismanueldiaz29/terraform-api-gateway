@@ -20,8 +20,8 @@ terraform {
 
 provider "aws" {
   region     = "us-east-1"
-  access_key = "AKIAXN5XSS2XQQ4TONPR"
-  secret_key = "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"
+  access_key = ""
+  secret_key = ""
 }
 
 resource "random_pet" "lambda_bucket_name" {
